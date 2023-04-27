@@ -1,0 +1,166 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+.wiblue {
+     background: rgb(102,118,138);
+     color: white;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+     height : 70px;
+}
+header nav >* {
+     float: left;
+     width: 33.3333%;
+}
+header nav img{
+     margin-left: 50%;
+     margin-top: 7px;
+}
+header nav ul{
+     list-style: none;
+}
+header nav ul li a {
+     color: white;
+     text-decoration: none;
+     width: 50%;
+     float: left;
+}
+header nav ul li:first-child a{
+     padding-left: 20%;
+}
+header nav> a {
+     color: white;
+     margin-top: 16px;
+     padding-left: 25%;
+     text-decoration: none;
+}
+section.wiblue{
+     height: 555px;
+}
+section.wiblue> div{
+     margin: 0 auto;
+     width: 850px;
+     padding-top: 5%;
+     font-size: 25px;
+     text-align: center;
+}
+section.wiblue div a{
+     color: white;
+     text-decoration: none;
+}
+section.wiblue div span{
+     color: rgb(83, 93, 110);
+     font-size: 18px;
+}
+section.wiblue >div >div {
+     padding: 12% 0;
+}
+.whywi{
+     height: 366px;
+     width: 50%;
+     margin: 0 auto;
+     text-align: center;
+     padding-top: 109px;
+}
+.square{
+     background: rgb(219,223,226);
+     height: 625px;
+     padding-top: 5%;
+}
+.square >section{
+     width: 50%;
+     float: left;
+     padding: 5%;
+     text-align: center;
+}
+.square section div{
+     width: 300px;
+     height: 171px;
+     background: rgb(102,118,138);
+     margin-left: 24%;
+}
+.square section a{
+     text-decoration: none;
+     color: black;
+     border: 1px solid black;
+     padding: 3%;
+}
+.square section p{
+     margin-bottom: 17%;
+}
+.volunteer{
+     height: 455px;
+     text-align: center;
+     padding: 10% 30%;
+}
+.volunteer p{
+     padding-bottom: 12%;
+}
+.volunteer a{
+     text-decoration: none;
+     color: black;
+     border: 1px solid black;
+     padding: 3%;
+}
+footer{
+     height: 270px;
+     background: rgb(22,31,42);
+     color: white;
+}
+hr{
+     color: white;
+     margin: 0 2%;
+}
+footer a {
+     text-decoration: none;
+     color: white;
+}
+footer section{
+     float: left;
+     width: 20%;
+     padding: 3%;
+}
+footer section i {
+     float: left;
+     width: 33.3333%;
+     padding: 5%;
+}
+footer section + section{
+     margin-left: 60%;
+}
+footer img{
+     margin-left: 12%;
+     margin-top: 1%;
+}
+footer >span{
+     padding-left: 2%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
